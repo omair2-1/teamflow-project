@@ -1,0 +1,37 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+*.db
+
+# Node / Vite
+node_modules/
+dist/
+.vite/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# TypeScript incremental build
+*.tsbuildinfo
+.env
+**/.env
+.venv/
+**/.venv/
+node_modules/
+**/node_modules/
+__pycache__/
+**/__pycache__/
+.pytest_cache/
